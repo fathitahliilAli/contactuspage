@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #803C3C;
+     font-family: "Wittgenstein";
+}
+.top{
+    display: flex;
+    margin-top: 40px;
+    
+    gap: 30px;
+    width: 100%;
+}
+.container{
+    height: 38rem;
+    width: 25rem;
+    margin-left: 40px;
+    /* margin-top: 40px; */
+    margin-bottom: 10px;
+    border: solid #461212;
+    border-radius: 30px;
+    
+    background-color: #461212;
+
+}
+.title{
+    color: white;
+    margin-left: 8px;
+    margin-top: 40px;
+}
+.title h3{
+    margin-left: 8px;
+    font-size: 24px;
+    color: rgb(70, 66, 66);
+}
+.title h2{
+   font-size: 40px;
+}
+
+/* sectim2 */
+.main{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: grey;
+    font-size: 20px;
+    
+    
+}
+form input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+textarea{
+    width: 350px;
+    height: 120px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    
+}
+.btn{
+    display: flex;
+    height: 35px;
+    width: 150px;
+    margin-left: 30%;
+    border-radius: 10px;
+    
+    margin-top: 20px;
+    align-items: center;
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+/* right-side */
+.right-side{
+    margin-left: 40px;
+}
+.right-side p{
+    width: 50%;
+    margin-top: 30px;
+    color: white;
+    font-size: 25px;
+}
+.right-side .icons{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    margin-top: 40px;
+    font-size: 25px;
+}
+.phone p{
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+
+
+/* footer */
+.footer{
+    margin-top: 90px;
+    margin-left: 5px;
+    color: white;
+    margin-bottom: 40px;
+}
+hr{
+    border: 1px solid black;
+}
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.social-media i{
+    font-size: 25px;
+}
+
